@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopwatchbyShriyanshi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">StopWatch</h1>
+    <div class="stopwatch">
+        <div class="time" id="display">
+            <span id="hours">0</span> <span class="label">Hours</span> :
+            <span id="minutes">0</span> <span class="label">Minutes</span> :
+            <span id="seconds">0</span> <span class="label">Seconds</span> :
+            <span id="milliseconds">0</span> <span class="label">Milliseconds</span>
+        </div>
+        <button id="startPause">Start</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+    </div>
+    <h2 class="lap-heading">Lap Times</h2>
+    <ul class="laps" id="lapList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>

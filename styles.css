@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #0d7997e5;
+}
+
+.stopwatch {
+    width: 500px; /* Increase the width for a bigger stopwatch */
+    background-color: #000000d3;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 30px; /* Increase the padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.time {
+    font-size: 36px; /* Increase the font size for larger text */
+    margin-bottom: 20px; /* Increase the margin for spacing */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 18px; /* Increase the label font size */
+    color: #0d7997e5;
+}
+
+#hours,
+#minutes,
+#seconds,
+#milliseconds {
+    margin: 0 10px; /* Increase the margin for spacing */
+}
+
+button {
+    font-size: 20px; /* Increase the button font size */
+    padding: 10px 20px; /* Increase the padding for larger buttons */
+    margin: 10px; /* Increase the margin for spacing */
+    width: 120px; /* Increase the button width */
+    background-color: #050f19f0;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06070bba;
+}
+
+.lap-heading {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    margin: 10px; /* Increase the margin for spacing */
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px; /* Increase the padding for spacing */
+    border-radius: 4px;
+}
